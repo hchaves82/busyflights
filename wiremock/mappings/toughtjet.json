@@ -1,0 +1,86 @@
+{
+
+    "request": {
+        "method": "GET",
+        "url": "/toughjet"
+    },
+    "response": {
+        "status": 200,
+		"jsonBody": 
+		[
+			{
+				"carrier":"British Airways",
+				"basePrice":"260,00",
+				"tax":"38,00",
+				"discount":"10",
+				"departureAirportName":"LHR",
+				"arrivalAirportName":"AMS",
+				"departureDay":"12",
+				"departureMonth":"6",
+				"departureYear":"2017",
+				"returnDay":"17",
+				"returnMonth":"6",
+				"returnYear":"2017"
+			},
+			{
+				"carrier":"British Airways",
+				"basePrice":"300,00",
+				"tax":"20,00",
+				"discount":"5",
+				"departureAirportName":"LHR",
+				"arrivalAirportName":"AMS",
+				"departureDay":"12",
+				"departureMonth":"6",
+				"departureYear":"2017",
+				"returnDay":"29",
+				"returnMonth":"6",
+				"returnYear":"2017"
+			},
+			{
+				"carrier":"Vueling Airlines",
+				"basePrice":"150,00",
+				"tax":"35,00",
+				"discount":"5",
+				"departureAirportName":"LHR",
+				"arrivalAirportName":"CDG",
+				"departureDay":"12",
+				"departureMonth":"6",
+				"departureYear":"2017",
+				"returnDay":"21",
+				"returnMonth":"6",
+				"returnYear":"2017"
+			},
+			{
+				"carrier":"Air France",
+				"basePrice":"340,00",
+				"tax":"40,00",
+				"discount":"10",
+				"departureAirportName":"LGW",
+				"arrivalAirportName":"CDG",
+				"departureDay":"12",
+				"departureMonth":"6",
+				"departureYear":"2017",
+				"returnDay":"15",
+				"returnMonth":"6",
+				"returnYear":"2017"
+			},			
+			{
+				"carrier":"Tam Airlines",
+				"basePrice":"1000,00",
+				"tax":"72,00",
+				"discount":"13",
+				"departureAirportName":"LGW",
+				"arrivalAirportName":"GRU",
+				"departureDay":"12",
+				"departureMonth":"6",
+				"departureYear":"2017",
+				"returnDay":"23",
+				"returnMonth":"6",
+				"returnYear":"2017"
+			}
+		],
+		"headers": {
+		  "Content-Type": "application/json"
+		}
+    }
+}

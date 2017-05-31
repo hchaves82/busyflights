@@ -1,0 +1,61 @@
+{
+
+    "request": {
+        "method": "GET",
+        "url": "/crazyair"
+    },
+    "response": {
+        "status": 200,
+		"jsonBody": 
+		[
+			{
+				"airline":"British Airways",
+				"price":"200,00",
+				"cabinclass":"E",
+				"departureAirportCode":"LHR",
+				"destinationAirportCode":"AMS",
+				"departureDate":"06-12-2017 18:00:00",
+				"arrivalDate":"06-12-2017 20:30:00"
+			},
+			{
+				"airline":"British Airways",
+				"price":"310,00",
+				"cabinclass":"B",
+				"departureAirportCode":"LHR",
+				"destinationAirportCode":"AMS",
+				"departureDate":"06-12-2017 10:00:00",
+				"arrivalDate":"06-12-2017 12:20:00"
+			},
+			{
+				"airline":"Vueling Airlines",
+				"price":"210,00",
+				"cabinclass":"E",
+				"departureAirportCode":"LHR",
+				"destinationAirportCode":"CDG",
+				"departureDate":"06-12-2017 13:00:00",
+				"arrivalDate":"06-12-2017 15:30:00"
+			},
+			{
+				"airline":"Air France",
+				"price":"190,00",
+				"cabinclass":"E",
+				"departureAirportCode":"LGW",
+				"destinationAirportCode":"CDG",
+				"departureDate":"06-12-2017 01:00:00",
+				"arrivalDate":"06-12-2017 03:20:00"
+			},			
+			{
+				"airline":"Tam Airlines",
+				"price":"580,00",
+				"cabinclass":"E",
+				"departureAirportCode":"LGW",
+				"destinationAirportCode":"GRU",
+				"departureDate":"06-12-2017 18:00:00",
+				"arrivalDate":"06-13-2017 07:00:00"
+			}
+		],
+		"headers": {
+		  "Content-Type": "application/json"
+		}
+    }
+}
