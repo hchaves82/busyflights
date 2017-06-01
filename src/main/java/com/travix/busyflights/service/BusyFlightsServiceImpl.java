@@ -49,7 +49,6 @@ public class BusyFlightsServiceImpl implements BusyFlightsService {
 		return listBusyFlight;
 	}
 	
-	@SuppressWarnings("unchecked")
 	@Override
 	public CompletableFuture<List<BusyFlightsResponse>> search(BusyFlightsRequest request) {
 		
