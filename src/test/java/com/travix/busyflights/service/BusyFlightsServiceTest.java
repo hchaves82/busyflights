@@ -75,8 +75,8 @@ public class BusyFlightsServiceTest {
 
 		CompletableFuture<List<BusyFlightsResponse>> completableFutureflights = busyFlightsService.search(busyFlightsRequest);
 		
-		verify(toughJetProviderService, times(1)).search(busyFlightsRequest);
-		verify(crazyAirProviderService, times(1)).search(busyFlightsRequest);
+		verify(toughJetProviderService).search(busyFlightsRequest);
+		verify(crazyAirProviderService).search(busyFlightsRequest);
 		
 		List<BusyFlightsResponse> flightsResponses = completableFutureflights.get();
 
