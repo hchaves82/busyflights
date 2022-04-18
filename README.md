@@ -66,9 +66,3 @@ java -jar wiremock-standalone-2.6.0.jar --port 9090
 	"returnDate":"2017-06-30T10:21:30",
 	"numberOfPassengers": 2
 }
-```
-
-### Note
-I'd like to have used DeferredResult for asynchronous calls, but unfortunately I had difficulties making it work.
-I also have not had much success with using JUnit with mockito.
-Actually I have not been working with JUnit and Spring for at least 4 years. However this test helped me a lot to update myself.
